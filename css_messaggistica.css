@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	max-width: 100%;
+}
+div {
+	box-sizing: border-box;
+}
+
+
+.page-container{
+	background: white;
+	min-height: 50px;
+	padding: 1%;
+}
+
+.page-section{
+	background: white;
+	min-height: 50px;
+	padding: 1%;
+}
+
+.mobile-grid{
+	background: lightblue;
+	min-height: 50px;
+	padding: 1%;
+	width: 375px;
+	margin: 8px;
+}
+
+.component-card{
+	background: white;
+	min-height: 50px;
+	padding: 1%;
+}
+.component-card img{
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.inner-box{
+	background: white;
+	padding: 1%;
+}
+
+.component-card .left-block, .component-card .center-block{
+	display: inline-block;
+	padding: 1%;
+	
+	vertical-align: middle;
+}
+
+.left-block{
+	width: 28%;
+}
+
+.center-block{
+	width: 53%;
+	text-decoration-color: aliceblue;
+}
+
+.right-block{
+	text-align: right;
+	vertical-align: bottom;
+	display: inline-block;
+	padding: 1%;
+	width: 15%;
+}
+
+
